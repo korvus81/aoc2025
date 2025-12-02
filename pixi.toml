@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Jeff Poole <jeff.poole@vivint.com>"]
+channels = ["conda-forge"]
+name = "aoc2025"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.5.0,<5"
+python = "==3.14"
+pytest = ">=9.0.1,<10"
